@@ -32,7 +32,7 @@ export const App = () => {
     } else {
       localStorage.setItem('contactList', JSON.stringify(contacts));
     }
-  }, [contacts]);
+  }, [contacts, firstRenderFlag]);
 
   const handleChange = e => {
     const { value } = e.target;
