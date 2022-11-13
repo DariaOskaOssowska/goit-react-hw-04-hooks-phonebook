@@ -18,4 +18,5 @@ export const Filter = ({ filter, handleChange }) => (
 Filter.propTypes = {
   filter: propTypes.string.isRequired,
   handleChange: propTypes.func.isRequired,
+  
 };
